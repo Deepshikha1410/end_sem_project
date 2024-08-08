@@ -1,3 +1,4 @@
+%%writefile morphology_kernel.cu
 #include <cuda_runtime.h>
 #include <algorithm>
 
