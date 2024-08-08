@@ -1,11 +1,13 @@
-Image Processing using CUDA and OpenCV
+Image Processing using CUDA and OpenCV    
 
 Overview
+
 This project demonstrates image processing using CUDA, a parallel computing platform developed by NVIDIA, and OpenCV, a computer vision library. The project performs morphological operations (dilation or erosion) on a grayscale image using CUDA and OpenCV.
 
 Files
-main.cpp: The main C++ file that loads an image, performs the morphological operation using CUDA, and saves the output image using OpenCV.
-perform_morphology.cu: The CUDA kernel file that performs the morphological operation on the image.
+1. main.cpp: The main C++ file that loads an image, performs the morphological operation using CUDA, and saves the output image using OpenCV.
+2. perform_morphology.cu: The CUDA kernel file that performs the morphological operation on the image.
+
 How to Use
 Compile the Project: Compile the project using a C++ compiler that supports CUDA (e.g., NVIDIA's nvcc compiler).
 Run the Program: Run the program by executing the compiled executable file.
